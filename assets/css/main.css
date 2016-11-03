@@ -2236,6 +2236,11 @@
 			padding-left: 0.5em;
 		}
 
+    ul.none {
+      list-style: none;
+      padding-left: 0;
+    }
+
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
@@ -2719,11 +2724,19 @@
 					margin-top: 0.5em;
 				}
 
+        #header header h1 small {
+          font-size: 0.5em; 
+        }
+
 			#header header p {
 				color: #ffffff;
 				font-weight: 700;
 				margin: 1.5em 0 0 0;
 			}
+
+      #header header p small {
+        font-size: 0.8em; 
+      }
 
 		#header .container {
 			background: rgba(255, 255, 255, 0.95);

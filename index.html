@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Untitled</title>
+		<title>Capreece Bowers - Counsellor and Consultant in Salmon Arm, BC</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -32,7 +32,7 @@
 		<!-- One -->
 			<section id="one" class="main">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+					<!--<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>-->
 					<div class="content">
 						<header class="major">
 							<h2>About My Practice</h2>
@@ -60,7 +60,7 @@
 		<!-- Two -->
 			<section id="two" class="main">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>
+					<!--<span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>-->
 					<div class="content">
 						<header class="major">
 							<h2>Services</h2>
@@ -92,7 +92,7 @@
 		<!-- Three -->
 			<section id="three" class="main">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+					<!--<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>-->
 					<div class="content">
 						<header class="major">
 							<h2>About Me</h2>
@@ -109,10 +109,12 @@
 					<header class="major">
 						<h2>Contact</h2>
 					</header>
-					<form method="post" action="#">
+					<form method="post" action="http://jonotron-nodemailer.herokuapp.com?key=CAPS">
+            <input type="hidden" name="_subject" value="Message from website">
+            <input type="hidden" name="_next" value="http://www.capreecebowers.com/thanks.html">
 						<div class="row uniform">
 							<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-							<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+							<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Email" /></div>
 							<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
 							<div class="12u$">
 								<ul class="actions">
@@ -123,15 +125,15 @@
 					</form>
 				</div>
 				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
+					<!--<ul class="icons">-->
+						<!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+						<!--<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>-->
+						<!--<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+						<!--<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+						<!--<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>-->
+					<!--</ul>-->
 					<ul class="copyright">
-						<li>&copy; Untitled</li>
+						<li>&copy; 2016, Capreece ("Cappi") Bowers</li>
 					</ul>
 				</footer>
 			</section>

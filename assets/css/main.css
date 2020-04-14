@@ -3044,3 +3044,13 @@
 				}
 
 	}
+
+  .seals {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .seals img {
+    width: 150px;
+  }
